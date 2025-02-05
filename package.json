@@ -23,7 +23,8 @@
     "node": ">=18.18.0"
   },
   "dependencies": {
-    "@ai-sdk/anthropic": "^0.0.39",
+    "axios": "^1.6.7",
+    "@ai-sdk/deepseek": "^0.0.1",
     "@codemirror/autocomplete": "^6.17.0",
     "@codemirror/commands": "^6.6.0",
     "@codemirror/lang-cpp": "^6.0.2",
@@ -77,6 +78,7 @@
     "unist-util-visit": "^5.0.0"
   },
   "devDependencies": {
+    "@types/axios": "^0.14.0",
     "@blitz/eslint-plugin": "0.1.0",
     "@cloudflare/workers-types": "^4.20240620.0",
     "@remix-run/dev": "^2.10.0",
